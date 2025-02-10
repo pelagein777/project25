@@ -40,7 +40,7 @@ function load() {//выполняется после загрузки стран
     inputs.forEach(input => {
         input.autocomplete = 'off';
     });
-    hideRandomTables();
+    //hideRandomTables();
     //populateVoiceList();
     // Добавляем обработчик событий для всех параграфов
 document.querySelectorAll('.task').forEach(td => {
